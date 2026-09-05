@@ -13,10 +13,6 @@ int main(){
 
     srand(time(NULL)); //função para números aletórios
 
-    for(i = 0; i < 100; i++){
-        vetor[i] = rand() % 100; //Números aleatórios de 0 à 99.
-    }
-
     printf("Vetor antes da ordenação:\n");
     for(i = 0; i < 100; i++){  //Primeiro Vetor Ordenado.
         vetor[i] = rand() % 100;
@@ -41,5 +37,4 @@ int main(){
     };
     return 0;
 }
-
 
