@@ -19,7 +19,7 @@ int main(){
     for (i = 0; i < 10; i++) {
         printf("Posição [%d]: ", i);
         scanf("%f", &vetor[i]);
-    }
+    } 
 
     do {
         printf("\n------------ MENU ------------\n");
